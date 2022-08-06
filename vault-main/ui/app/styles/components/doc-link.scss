@@ -1,0 +1,17 @@
+.doc-link {
+  color: $link;
+  text-decoration: none;
+  font-weight: $font-weight-semibold;
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+
+.doc-link-subtle {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: inherit;
+  &:hover {
+    color: inherit;
+  }
+}
